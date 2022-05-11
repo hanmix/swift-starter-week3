@@ -34,6 +34,6 @@ class Person {
             print("[\(name)] 안녕하세요, \(cafe.barista.name)! \(drink.name) 주문할게요.")
             cafe.order(drink, for: self)
         }
-        
+        print("")
     }
 }
